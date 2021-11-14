@@ -6,9 +6,7 @@ Pick your weapon and play against the computer - you'll only get a virtual sting
 
 ## What do you need to play?
 
-You just need to download<a href="https://www.python.org/downloads/" rel="nofollow">Python 3</a>!
-TODO: Describe the installation process
-
+You just need to download <a href="https://www.python.org/downloads/" rel="nofollow">Python 3</a>!
 
 ## Usage
 
