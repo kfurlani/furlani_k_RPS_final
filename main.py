@@ -2,6 +2,7 @@ from random import randint
 from gameComponents import winLose, gameVars, gameResult
 
 print("***ROCK***PAPER***SCISSORS***")
+print("choose wisely...")
 
 while gameVars.player is False:
     gameVars.player = input("Choose your weapon: rock, paper or scissors: ")
@@ -10,7 +11,7 @@ while gameVars.player is False:
     print("player chose: " + gameVars.player)
     print("computer chose: " + gameVars.computer)
 
-    gameResult.winner()
+    gameResult.winnerResult()
 
     print("player life count: " + str(gameVars.playerLives))
     print("computer life count: " + str(gameVars.computerLives))
