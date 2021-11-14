@@ -7,9 +7,9 @@ def winorlose(status):
     choice = input("do you want to play again? y/n: ")
 
     if choice == "n":
-        print("========= see ya! (loser) ==========")
+        print(" !!!!!FINE!!!!! I didn't want to play again anyway...")
         exit()
     elif choice == "y":
-        gameVars.playerLives = 5
-        gameVars.computerLives = 5
+        gameVars.playerLives = 3
+        gameVars.computerLives = 3
         gameVars.player = False
